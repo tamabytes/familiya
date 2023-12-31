@@ -201,3 +201,21 @@ function tambah(a, b) {
 // Mengembalikan hasil penjumlahan 3 dan 5 dari fungsi 'tambah'
 const hasil = tambah(3, 5);
 ```
+
+- Operator `or` (`||`): mengevaluasi ekspresi dan mengembalikan nilai pertama yang bernilai benar. Contohnya
+
+```js
+const nilai = null || 100; // 100
+```
+
+- Optional Chaining (`?.`): memungkinkan akses ke properti dalam sebuah objek secara aman tanpa menghasilkan error jika nilai sebelumnya adalah null atau undefined. Contohnya
+
+```js
+const nama = objek?.properti; // undefined
+const nama = objek.properti; // tanpa ?. akan ERROR
+```
+- Nullish Coalescing (`??`): mendefinisikan nilai default jika nilai pertama adalah null atau undefined. Contohnya
+
+```js
+const hasil = undefined ?? "100%"; // 100%
+```
