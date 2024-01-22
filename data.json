@@ -1,7 +1,0 @@
-{
-  "keluarga": [
-    { "nama": "Tugus Tamvan", "jenisKelamin": "l", "ayah": "Ajik Made", "ibu": "Biang Sri Dewi Jayanti", "anak": [] },
-    { "nama": "Ajik Made", "jenisKelamin": "l", "anak": ["Tugus Tamvan"] },
-    { "nama": "Biang Sri Dewi Jayanti", "jenisKelamin": "p", "anak": ["Tugus Tamvan"] }
-  ]
-}
